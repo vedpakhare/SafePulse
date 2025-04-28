@@ -1,8 +1,6 @@
 # 🔒 SafePulse - Your System's Heartbeat of Security
 
-<p align="center">
-  <img src="assets/logo.png" alt="SafePulse Banner" width="200"/>
-</p>
+![SafePulse Banner](assets/banner.png)
 
 **Cyber Hygiene Auto-Scanner for Normal People** - A simple, beautiful tool that checks your system's basic security in one click.
 
