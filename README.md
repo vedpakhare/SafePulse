@@ -47,14 +47,14 @@ python3 src/gui.py
 ```
 
 ## 🐛 Bug Reports  
-Found an issue? Report it on our community Discord: [https://discord.com/invite/eJVbQTPF2c](https://discord.com/invite/eJVbQTPF2c)
+Found an issue? Report it on our community Discord: https://discord.gg/M3MphGJ9FU
 
 ## 📜 License  
 MIT License – Feel free to use it, but please credit SafePulse.
 
 ## 🌐 Official Links  
 - Website: [https://vedpakhare.github.io/SafePulse](https://safepulse.github.io)  
-- Discord: [https://discord.gg/eJVbQTPF2c](https://discord.gg/eJVbQTPF2c)  
+- Discord: https://discord.gg/M3MphGJ9FU 
 - YouTube: Coming Soon
 
 
