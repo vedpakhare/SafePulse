@@ -46,19 +46,17 @@ python3 src/scanner.py
 python3 src/gui.py
 ```
 
-## 🐛 Bug Reports
+## 🐛 Bug Reports  
+Found an issue? Report it on our community Discord: [https://discord.com/invite/eJVbQTPF2c](https://discord.com/invite/eJVbQTPF2c)
 
-Found an issue? Report it on our community Discord: https://discord.com/invite/eJVbQTPF2c
+## 📜 License  
+MIT License – Feel free to use it, but please credit SafePulse.
 
-## 📜 License
+## 🌐 Official Links  
+- Website: [https://safepulse.github.io](https://safepulse.github.io)  
+- Discord: [https://discord.gg/eJVbQTPF2c](https://discord.gg/eJVbQTPF2c)  
+- YouTube: Coming Soon
 
-MIT License - Use freely but credit SafePulse.
-
-## 🌐 Official Links
-
-Website: https://safepulse.github.io
-Discord: https://discord.gg/eJVbQTPF2c
-YouTube: [Coming Soon]
 
 
 
