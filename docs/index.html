@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafePulse - Your System's Heartbeat of Security</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-blue-600 text-white py-6">
+        <div class="container mx-auto px-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-2">
+                    <i class="fas fa-heartbeat text-3xl"></i>
+                    <h1 class="text-3xl font-bold">SafePulse</h1>
+                </div>
+                <nav class="hidden md:flex space-x-6">
+                    <a href="#features" class="hover:text-blue-200">Features</a>
+                    <a href="#about" class="hover:text-blue-200">About</a>
+                    <a href="#download" class="hover:text-blue-200">Download</a>
+                    <a href="#contact" class="hover:text-blue-200">Contact</a>
+                </nav>
+                <button class="md:hidden text-2xl">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="py-16 bg-gradient-to-r from-blue-500 to-blue-700 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl font-bold mb-4">Your System's Heartbeat of Security</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">A free, open-source tool that scans your system for common security issues and provides actionable recommendations.</p>
+            <a href="#download" class="bg-white text-blue-600 px-6 py-3 rounded-lg font-bold hover:bg-blue-50 transition duration-300">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Key Features</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Realtime Vulnerability Scanning</h3>
+                    <p class="text-gray-600">Detects common security issues in your system configuration.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Lightweight & Fast</h3>
+                    <p class="text-gray-600">Runs quickly without slowing down your system.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fas fa-lock-open"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Open Source and Free</h3>
+                    <p class="text-gray-600">Transparent code that anyone can inspect and improve.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-8 md:mb-0 md:pr-8">
+                    <h2 class="text-3xl font-bold mb-4">About SafePulse</h2>
+                    <p class="text-gray-600 mb-4">SafePulse was created to make basic cybersecurity accessible to everyone. We believe that everyone deserves to know if their system has common security vulnerabilities.</p>
+                    <p class="text-gray-600 mb-4">Our mission is to provide free and secure cybersecurity tools for everyone, regardless of their technical knowledge.</p>
+                    <p class="text-gray-600">Our vision is to become the pulse of safety in the digital world, helping users maintain healthy security practices.</p>
+                </div>
+                <div class="md:w-1/2">
+                    <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Security" class="rounded-lg shadow-md w-full">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download -->
+    <section id="download" class="py-16 bg-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-8">Download SafePulse</h2>
+            <div class="max-w-2xl mx-auto bg-gray-50 p-8 rounded-lg shadow-sm">
+                <h3 class="text-xl font-bold mb-4">For Kali Linux</h3>
+                <div class="bg-gray-800 text-green-400 p-4 rounded-lg mb-6 text-left font-mono overflow-x-auto">
+                    <p># Download and install</p>
+                    <p>git clone https://github.com/yourusername/SafePulse.git</p>
+                    <p>cd SafePulse</p>
+                    <p>chmod +x install.sh</p>
+                    <p>./install.sh</p>
+                </div>
+                <p class="mb-6">For other Linux distributions, you may need to install dependencies manually.</p>
+                <a href="https://github.com/yourusername/SafePulse" class="bg-blue-600 text-white px-6 py-3 rounded-lg font-bold hover:bg-blue-700 transition duration-300 inline-block">
+                    <i class="fab fa-github mr-2"></i> View on GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8">Contact & Support</h2>
+            <div class="max-w-md mx-auto bg-white p-8 rounded-lg shadow-sm">
+                <div class="mb-6">
+                    <h3 class="text-xl font-bold mb-2">Bug Reporting</h3>
+                    <p class="text-gray-600 mb-4">Found an issue? Please report it on our GitHub issues page.</p>
+                    <a href="https://github.com/yourusername/SafePulse/issues" class="text-blue-600 hover:underline">GitHub Issues</a>
+                </div>
+                <div class="mb-6">
+                    <h3 class="text-xl font-bold mb-2">Feature Requests</h3>
+                    <p class="text-gray-600 mb-4">Have an idea for improvement? We'd love to hear it!</p>
+                    <a href="https://github.com/yourusername/SafePulse/issues" class="text-blue-600 hover:underline">Suggest a Feature</a>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-2">Community</h3>
+                    <p class="text-gray-600 mb-4">Join our Discord community to connect with other users.</p>
+                    <a href="https://discord.gg/eJVbQTPF2c" class="text-blue-600 hover:underline">Join Discord</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <div class="flex items-center space-x-2">
+                        <i class="fas fa-heartbeat text-2xl"></i>
+                        <span class="text-xl font-bold">SafePulse</span>
+                    </div>
+                    <p class="text-gray-400 mt-2">Your System's Heartbeat of Security</p>
+                </div>
+                <div class="flex space-x-4">
+                    <a href="https://github.com/yourusername/SafePulse" class="text-gray-400 hover:text-white text-2xl">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://discord.gg/eJVbQTPF2c" class="text-gray-400 hover:text-white text-2xl">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2023 SafePulse. All rights reserved.</p>
+                <p class="mt-2">Open source software licensed under MIT.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple mobile menu toggle
+        document.querySelector('.md\\:hidden').addEventListener('click', function() {
+            const nav = document.querySelector('nav');
+            nav.classList.toggle('hidden');
+            nav.classList.toggle('flex');
+            nav.classList.toggle('flex-col');
+            nav.classList.toggle('absolute');
+            nav.classList.toggle('top-16');
+            nav.classList.toggle('right-4');
+            nav.classList.toggle('bg-blue-700');
+            nav.classList.toggle('p-4');
+            nav.classList.toggle('rounded');
+            nav.classList.toggle('space-y-4');
+        });
+    </script>
+</body>
+</html>
