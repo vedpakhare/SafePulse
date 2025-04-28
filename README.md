@@ -19,7 +19,7 @@
 ### Kali Linux / Debian-based
 
 ```bash
-git clone https://github.com/yourusername/SafePulse.git
+git clone https://github.com/vedpakhare/SafePulse.git
 cd SafePulse
 chmod +x install.sh
 ./install.sh
