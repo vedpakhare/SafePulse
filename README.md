@@ -53,7 +53,7 @@ Found an issue? Report it on our community Discord: https://discord.gg/M3MphGJ9F
 MIT License – Feel free to use it, but please credit SafePulse.
 
 ## 🌐 Official Links  
-- Website: [https://vedpakhare.github.io/SafePulse](https://safepulse.github.io)  
+- Website: https://vedpakhare.github.io/SafePulse
 - Discord: https://discord.gg/M3MphGJ9FU 
 - YouTube: Coming Soon
 
