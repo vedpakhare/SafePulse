@@ -25,3 +25,43 @@ git clone https://github.com/yourusername/SafePulse.git
 cd SafePulse
 chmod +x install.sh
 ./install.sh
+```
+
+## Other Linux
+
+```bash
+# Install dependencies
+sudo apt update
+sudo apt install python3 pip3 chkrootkit nmap ufw
+
+# Run SafePulse
+python3 src/scanner.py
+```
+
+## 🛠️ Usage
+
+```bash
+# CLI Version
+./src/safepulse.sh
+
+# GUI Version
+python3 src/gui.py
+```
+
+## 🐛 Bug Reports
+
+Found an issue? Report it on our community Discord: https://discord.com/invite/eJVbQTPF2c
+
+## 📜 License
+
+MIT License - Use freely but credit SafePulse.
+
+## 🌐 Official Links
+
+Website: https://safepulse.github.io
+Discord: https://discord.gg/eJVbQTPF2c
+YouTube: [Coming Soon]
+
+
+
+
